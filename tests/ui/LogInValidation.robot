@@ -24,4 +24,3 @@ Should not log in with invalid username
 Field validation should be displayed when fields are empty
     Click Sign In
     Expect Helper Error For Field    username    Username is required
-    Take Screenshot

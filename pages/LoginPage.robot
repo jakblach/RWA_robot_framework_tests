@@ -10,6 +10,7 @@ ${SIGN_IN_BUTTON}   xpath=//button[@data-test="signin-submit"]
 *** Keywords ***
 Fill Credentials
     [Arguments]  ${username}  ${password}
+    Wait Until Element Is Visible     ${USERNAME_FIELD}
     Input Text   ${USERNAME_FIELD}    ${username}
     Input Text   ${PASSWORD_FIELD}    ${password}
 

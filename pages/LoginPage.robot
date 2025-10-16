@@ -1,6 +1,7 @@
 *** Settings ***
 Resource  ../pages/Basic.robot
 Resource  ../pages/MainPage.robot
+Resource  ../pages/Common.robot
 
 *** Variables ***
 ${USERNAME_FIELD}   id=username

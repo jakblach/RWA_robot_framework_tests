@@ -8,3 +8,6 @@ ${APP_LOGO}  //h1[@data-test='app-name-logo']
 *** Keywords ***
 Log Out
     Click Element  ${LOG_OUT_BUTTON}
+
+App Logo Should Be Visible
+    Wait Until Element Is Visible    ${APP_LOGO}
